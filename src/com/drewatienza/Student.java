@@ -6,10 +6,12 @@ public class Student {
     private String firstName;
     private String lastName;
     private String grade;
-    private int studentId;
+    private int gradeLevel;
+    private String studentId;
     private String courses;
     private int tuitionBalance;
-    private int costOfCourse = 600;
+    private static int costOfCourse = 600;
+    private static int id = 1000;
 
     // Constructor: prompt user to enter student's name and year
     public Student() {
@@ -25,7 +27,7 @@ public class Student {
                 "\n2 - Sophomore" +
                 "\n3 - Junior" +
                 "\n4 - Senior");
-        int gradeLevel = in.nextInt();
+        gradeLevel = in.nextInt();
         switch (gradeLevel) {
             case 1:
                 this.grade = "Freshman";
@@ -43,10 +45,19 @@ public class Student {
                 break;
         }
 
-        System.out.println(firstName + " " + lastName + " - Grade: " + grade);
+        setStudentId();
+
+        System.out.println("Student Name: " +firstName + " " + lastName +
+                "\nGrade: " + grade +
+                "\nStudent ID: " + studentId);
     }
 
     // Generate ID
+    private void setStudentId() {
+        // Grade level + id
+        id++;
+        this.studentId =  gradeLevel + "" + id;
+    }
 
     // Enroll in courses
 
