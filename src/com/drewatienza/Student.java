@@ -83,7 +83,7 @@ public class Student {
         Scanner pay = new Scanner(System.in);
         int payment = pay.nextInt();
         tuitionBalance = tuitionBalance - payment;
-        System.out.println("Thank you for your payment of $" + payment + ".\n" +
+        System.out.println("Thank you " + firstName + " for your payment of $" + payment + ".\n" +
                 "Your new balance is $" + tuitionBalance + ".");
     }
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3d436e9-8abc-40f5-852d-8068a7ccfcf3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/drewatienza/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/drewatienza/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/drewatienza/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/drewatienza/Student.java" afterDir="false" />
     </list>
@@ -16,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/drewatienza/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="391">
+              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/drewatienza/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+            <state relative-caret-position="528">
+              <caret line="86" column="64" lean-forward="true" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -147,12 +146,12 @@
       <workItem from="1526603347074" duration="21000" />
       <workItem from="1526611171087" duration="2258000" />
       <workItem from="1526619269830" duration="1203000" />
-      <workItem from="1526676463795" duration="701000" />
+      <workItem from="1526676463795" duration="1404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6392000" />
+    <option name="totallyTimeSpent" value="7095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="975" extended-state="0" />
@@ -279,17 +278,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/drewatienza/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/com/drewatienza/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+        <state relative-caret-position="391">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/drewatienza/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/drewatienza/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="528">
+          <caret line="86" column="64" lean-forward="true" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
         </state>
       </provider>
     </entry>
