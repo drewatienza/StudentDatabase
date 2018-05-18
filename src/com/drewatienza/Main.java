@@ -6,6 +6,7 @@ public class Main {
         Student stu1 = new Student();
         stu1.enroll();
         stu1.payTuition();
+        System.out.println(stu1.toString());
 	    // Ask how many users you want to add
 
         // Create n number of students
